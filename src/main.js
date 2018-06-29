@@ -1,7 +1,10 @@
 import Vue from 'vue'
 
-new Vue({
-  el: 'body',
+console.log('hello')
+console.log(Vue)
+
+let app = new Vue({
+  el: '#app',
   data: {
     message: "Hello Vue"
   }

@@ -150,7 +150,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _vue = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n\nvar _vue2 = _interopRequireDefault(_vue);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nnew _vue2.default({\n  el: 'body',\n  data: {\n    message: \"Hello Vue\"\n  }\n});\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("\n\nvar _vue = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n\nvar _vue2 = _interopRequireDefault(_vue);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nconsole.log('hello');\nconsole.log(_vue2.default);\n\nvar app = new _vue2.default({\n  el: '#app',\n  data: {\n    message: \"Hello Vue\"\n  }\n});\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ })
 
